@@ -14,7 +14,7 @@ public class RequestHandler {
 	private static final Logger LOGGER = LoggerFactory.getLogger(RequestHandler.class);
 	@RequestMapping(name="hello", method=RequestMethod.GET)
 	public String sayHello(@RequestParam String name) {
-		LOGGER.info("Entering into sayHello zone with name: "+name);
+		LOGGER.info("Entering into sayHello zone with name - : "+name);
 		return "Hello "+name;
 	}
 	
