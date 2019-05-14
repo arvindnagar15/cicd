@@ -45,7 +45,7 @@
       
     </repository>
     <snapshotRepository>
-    	<id>deployment</id>
+    	<id>sampleJenkins</id>
     	<name>Internal snapshot release</name>
     	<url>http://localhost:8081/repository/sampleJenkins/</url>
     </snapshotRepository>
